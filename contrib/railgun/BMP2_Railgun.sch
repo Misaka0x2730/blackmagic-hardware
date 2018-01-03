@@ -2399,9 +2399,9 @@ BlackSphereTechnologies and 1BitSquared
 <attribute name="NAME" x="289.56" y="208.28" size="1.778" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="299.72" y="215.9" size="1.778" layer="96" rot="MR270"/>
 </instance>
-<instance part="VT2" gate="G$1" x="309.88" y="208.28" smashed="yes" rot="R270">
-<attribute name="NAME" x="314.96" y="208.28" size="1.778" layer="95"/>
-<attribute name="VALUE" x="304.8" y="215.9" size="1.778" layer="96" rot="R270"/>
+<instance part="VT2" gate="G$1" x="314.96" y="208.28" smashed="yes" rot="MR270">
+<attribute name="NAME" x="309.88" y="208.28" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="320.04" y="215.9" size="1.778" layer="96" rot="MR270"/>
 </instance>
 <instance part="VT3" gate="G$1" x="363.22" y="234.95" smashed="yes" rot="R180">
 <attribute name="NAME" x="363.22" y="227.33" size="1.778" layer="95"/>
@@ -2659,8 +2659,8 @@ BlackSphereTechnologies and 1BitSquared
 <wire x1="294.64" y1="203.2" x2="294.64" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="VT2" gate="G$1" pin="S"/>
 <wire x1="294.64" y1="200.66" x2="300.99" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="300.99" y1="200.66" x2="309.88" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="200.66" x2="309.88" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="300.99" y1="200.66" x2="314.96" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="200.66" x2="314.96" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND11" gate="1" pin="GND"/>
 <wire x1="300.99" y1="198.12" x2="300.99" y2="200.66" width="0.1524" layer="91"/>
 <junction x="300.99" y="200.66"/>
@@ -3273,8 +3273,8 @@ BlackSphereTechnologies and 1BitSquared
 </segment>
 <segment>
 <pinref part="VT2" gate="G$1" pin="D"/>
-<wire x1="309.88" y1="213.36" x2="309.88" y2="215.9" width="0.1524" layer="91"/>
-<label x="309.88" y="215.9" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="314.96" y1="213.36" x2="314.96" y2="231.14" width="0.1524" layer="91"/>
+<label x="314.96" y="231.14" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3339,13 +3339,6 @@ BlackSphereTechnologies and 1BitSquared
 <junction x="132.08" y="30.48"/>
 <label x="129.54" y="30.48" size="1.778" layer="95" rot="R180"/>
 <pinref part="IC4" gate="MCU" pin="NRST"/>
-</segment>
-</net>
-<net name="XRST" class="0">
-<segment>
-<label x="320.04" y="205.74" size="1.778" layer="95" xref="yes"/>
-<pinref part="VT2" gate="G$1" pin="G"/>
-<wire x1="317.5" y1="205.74" x2="320.04" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ITXD" class="0">
@@ -3619,6 +3612,10 @@ BlackSphereTechnologies and 1BitSquared
 <wire x1="294.64" y1="215.9" x2="294.64" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="215.9" x2="294.64" y2="215.9" width="0.1524" layer="91"/>
 <junction x="294.64" y="215.9"/>
+<wire x1="294.64" y1="215.9" x2="304.8" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="215.9" x2="304.8" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="VT2" gate="G$1" pin="G"/>
+<wire x1="304.8" y1="205.74" x2="307.34" y2="205.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
