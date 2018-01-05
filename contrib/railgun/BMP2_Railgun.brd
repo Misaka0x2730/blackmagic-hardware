@@ -113,18 +113,18 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="19.4" x2="0" y2="0.6" width="0" layer="20"/>
-<wire x1="0.6" y1="0" x2="22.4" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="2" x2="0" y2="18" width="0" layer="20"/>
+<wire x1="2" y1="0" x2="22.4" y2="0" width="0" layer="20"/>
 <wire x1="22.4" y1="0" x2="22.4" y2="1.3" width="0" layer="20"/>
 <wire x1="22.4" y1="1.3" x2="25.6" y2="1.3" width="0" layer="20"/>
 <wire x1="25.6" y1="1.3" x2="25.6" y2="0" width="0" layer="20"/>
-<wire x1="25.6" y1="0" x2="47.4" y2="0" width="0" layer="20"/>
-<wire x1="48" y1="0.6" x2="48" y2="19.4" width="0" layer="20"/>
-<wire x1="47.4" y1="20" x2="25.6" y2="20" width="0" layer="20"/>
+<wire x1="25.6" y1="0" x2="46" y2="0" width="0" layer="20"/>
+<wire x1="48" y1="2" x2="48" y2="18" width="0" layer="20"/>
+<wire x1="46" y1="20" x2="25.6" y2="20" width="0" layer="20"/>
 <wire x1="25.6" y1="20" x2="25.6" y2="18.7" width="0" layer="20"/>
 <wire x1="25.6" y1="18.7" x2="22.4" y2="18.7" width="0" layer="20"/>
 <wire x1="22.4" y1="18.7" x2="22.4" y2="20" width="0" layer="20"/>
-<wire x1="22.4" y1="20" x2="0.6" y2="20" width="0" layer="20"/>
+<wire x1="22.4" y1="20" x2="2" y2="20" width="0" layer="20"/>
 <rectangle x1="7.225" y1="5.175" x2="16.975" y2="6.575" layer="46" rot="R270"/>
 <text x="17.9" y="18.8" size="1" layer="25" font="vector" ratio="16">B</text>
 <text x="23.55" y="1.3" size="0.8" layer="25" font="vector" ratio="16">SWD</text>
@@ -150,13 +150,9 @@ BlackSphereTechnologies
 and 1BitSquared</text>
 <text x="30.4" y="2.95" size="0.8" layer="26" font="vector" ratio="16" rot="MR180">2018
 CC-BY-SA 4.0</text>
-<wire x1="47.4" y1="0" x2="48" y2="0.6" width="0" layer="20" curve="90"/>
-<wire x1="48" y1="19.4" x2="47.4" y2="20" width="0" layer="20" curve="90"/>
-<wire x1="0.6" y1="20" x2="0" y2="19.4" width="0" layer="20" curve="90"/>
-<wire x1="0" y1="0.6" x2="0.6" y2="0" width="0" layer="20" curve="90"/>
 <wire x1="44.55" y1="3.15" x2="45.95" y2="3.15" width="0.12" layer="26"/>
 <wire x1="45.95" y1="3.15" x2="46.35" y2="2.75" width="0.12" layer="26"/>
-<text x="47.45" y="3" size="0.8" layer="25" font="vector" ratio="16" rot="R180" align="top-left">UART</text>
+<text x="47.15" y="3" size="0.8" layer="25" font="vector" ratio="16" rot="R180" align="top-left">UART</text>
 <text x="48" y="13.15" size="0.8" layer="25" font="vector" ratio="16" rot="R180" align="top-left">GND</text>
 <text x="48" y="10.65" size="0.8" layer="25" font="vector" ratio="16" rot="R180" align="top-left">GND</text>
 <text x="48" y="5.55" size="0.8" layer="25" font="vector" ratio="16" rot="R180" align="top-left">GND</text>
@@ -170,6 +166,14 @@ CC-BY-SA 4.0</text>
 <wire x1="20.9" y1="9.45" x2="19.2" y2="9.45" width="0.12" layer="26"/>
 <wire x1="19.2" y1="9.45" x2="18.85" y2="9.8" width="0.12" layer="26"/>
 <wire x1="18.85" y1="9.8" x2="18.7" y2="9.8" width="0.12" layer="26"/>
+<wire x1="46" y1="20" x2="46" y2="18" width="0" layer="20"/>
+<wire x1="46" y1="18" x2="48" y2="18" width="0" layer="20"/>
+<wire x1="48" y1="2" x2="46" y2="2" width="0" layer="20"/>
+<wire x1="46" y1="2" x2="46" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="18" x2="2" y2="18" width="0" layer="20"/>
+<wire x1="2" y1="18" x2="2" y2="20" width="0" layer="20"/>
+<wire x1="0" y1="2" x2="2" y2="2" width="0" layer="20"/>
+<wire x1="2" y1="2" x2="2" y2="0" width="0" layer="20"/>
 </plain>
 <libraries>
 <library name="Misaka-RCL">
@@ -689,8 +693,8 @@ design rules under a new name.</description>
 <description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
 </description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.018mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.018mm"/>
+<param name="mtIsolate" value="1.2mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
@@ -878,7 +882,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="10.2" y="2.75" size="0.8" layer="28" font="vector" ratio="16" rot="MR0"/>
 </element>
 <element name="C8" library="Misaka-RCL" package="0402" value="0.1" x="4" y="1" smashed="yes" rot="R180">
-<attribute name="NAME" x="2.6" y="1.35" size="0.8" layer="25" font="vector" ratio="16" rot="R180"/>
+<attribute name="NAME" x="4.9" y="1.75" size="0.8" layer="25" font="vector" ratio="16"/>
 <attribute name="VALUE" x="5.3" y="2.75" size="0.8" layer="27" font="vector" ratio="16" rot="R180"/>
 </element>
 <element name="C5" library="Misaka-RCL" package="0603" value="0.1" x="8.4" y="11.55" smashed="yes" rot="MR0">
@@ -980,7 +984,7 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="34.2" y="13.4" size="0.8" layer="27" font="vector" ratio="16"/>
 </element>
 <element name="R13" library="Misaka-RCL" package="0402" value="10k" x="42.7" y="19.35" smashed="yes">
-<attribute name="NAME" x="44.55" y="19" size="0.8" layer="25" font="vector" ratio="16"/>
+<attribute name="NAME" x="45.45" y="17.85" size="0.8" layer="25" font="vector" ratio="16" rot="R90"/>
 <attribute name="VALUE" x="41.4" y="17.6" size="0.8" layer="27" font="vector" ratio="16"/>
 </element>
 <element name="R6" library="Misaka-RCL" package="0402" value="10k" x="17.4" y="11.8" smashed="yes" rot="MR90">
@@ -1080,8 +1084,8 @@ design rules under a new name.</description>
 <element name="X1" library="Misaka-Connector" package="PH1X03_1.27" value="SWD" x="27.8" y="0.85" smashed="yes">
 <attribute name="VALUE" x="25.27" y="-1.65" size="0.8" layer="27" font="vector" ratio="16"/>
 </element>
-<element name="X3" library="Misaka-Connector" package="PH2X02_1.27" value="TARGET UART" x="45.7" y="1.5" smashed="yes">
-<attribute name="VALUE" x="43.17" y="-1.635" size="1" layer="27" font="vector" ratio="15"/>
+<element name="X3" library="Misaka-Connector" package="PH2X02_1.27" value="TARGET UART" x="44.2" y="1.5" smashed="yes">
+<attribute name="VALUE" x="41.67" y="-1.635" size="1" layer="27" font="vector" ratio="15"/>
 </element>
 <element name="X4" library="Misaka-Connector" package="USB-A-MALE" value="USB_A-MALE" x="5.35" y="10" smashed="yes" rot="R270">
 <attribute name="VALUE" x="-1.25" y="16.6" size="1" layer="27" font="vector" ratio="15" rot="R270"/>
@@ -1120,13 +1124,17 @@ design rules under a new name.</description>
 <via x="26.85" y="4.1" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="22.55" y1="4.1" x2="24.7" y2="6.25" width="0.2" layer="1"/>
 <polygon width="0.2" layer="16" isolate="0.2">
-<vertex x="13.45" y="19.8"/>
-<vertex x="22.2" y="19.9"/>
-<vertex x="22.2" y="18.6"/>
+<vertex x="13.45" y="19.9"/>
+<vertex x="22.3" y="19.9"/>
+<vertex x="22.3" y="18.6"/>
 <vertex x="25.7" y="18.6"/>
 <vertex x="25.7" y="19.9"/>
-<vertex x="47.85" y="19.9"/>
-<vertex x="47.85" y="0.1"/>
+<vertex x="45.9" y="19.9"/>
+<vertex x="45.9" y="17.9"/>
+<vertex x="47.9" y="17.9"/>
+<vertex x="47.9" y="2.1"/>
+<vertex x="45.9" y="2.1"/>
+<vertex x="45.9" y="0.1"/>
 <vertex x="25.7" y="0.1"/>
 <vertex x="25.7" y="1.4"/>
 <vertex x="22.3" y="1.4"/>
@@ -1154,18 +1162,22 @@ design rules under a new name.</description>
 <contactref element="C25" pad="2"/>
 <contactref element="C26" pad="2"/>
 <polygon width="0.2" layer="1" isolate="0.2">
-<vertex x="13.45" y="19.8"/>
+<vertex x="13.45" y="19.9"/>
 <vertex x="13.45" y="0.1"/>
 <vertex x="22.3" y="0.1"/>
 <vertex x="22.3" y="1.4"/>
 <vertex x="25.7" y="1.4"/>
 <vertex x="25.7" y="0.1"/>
-<vertex x="47.85" y="0.1"/>
-<vertex x="47.85" y="19.9"/>
+<vertex x="45.9" y="0.1"/>
+<vertex x="45.9" y="2.1"/>
+<vertex x="47.9" y="2.1"/>
+<vertex x="47.9" y="17.9"/>
+<vertex x="45.9" y="17.9"/>
+<vertex x="45.9" y="19.9"/>
 <vertex x="25.7" y="19.9"/>
 <vertex x="25.7" y="18.6"/>
-<vertex x="22.2" y="18.6"/>
-<vertex x="22.2" y="19.8"/>
+<vertex x="22.3" y="18.6"/>
+<vertex x="22.3" y="19.9"/>
 </polygon>
 <via x="16.15" y="12.25" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="18.35" y="12.45" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -1204,7 +1216,6 @@ design rules under a new name.</description>
 <via x="17.6" y="19.2" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="17.6" y="17.9" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="47.4" y="16.65" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="47.4" y="19.4" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="37.05" y="10.4" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="39.95" y="2.35" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="23.15" y="17" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -1292,12 +1303,9 @@ design rules under a new name.</description>
 <wire x1="29.95" y1="17.8" x2="29.3" y2="17.8" width="0.2" layer="1"/>
 <via x="37.7" y="13.8" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="18.75" y="14.6" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="47.4" y="17.8" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="45.8" y="17.8" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="45.8" y="16.65" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="45.8" y="19.4" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="44.4" y="16.65" extent="1-16" drill="0.3" diameter="0.6"/>
-<via x="44.4" y="19.4" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="44.35" y="19.4" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="42.3" y="0.6" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="40.6" y="0.6" extent="1-16" drill="0.3" diameter="0.6"/>
 <via x="42.3" y="2.2" extent="1-16" drill="0.3" diameter="0.6"/>
@@ -1503,16 +1511,24 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND1">
 <polygon width="0.2" layer="16" isolate="0.2">
-<vertex x="0.2" y="19.8"/>
-<vertex x="0.2" y="0.2"/>
-<vertex x="10.65" y="0.2"/>
-<vertex x="10.65" y="19.8"/>
+<vertex x="2.1" y="19.9"/>
+<vertex x="2.1" y="17.9"/>
+<vertex x="0.1" y="17.9"/>
+<vertex x="0.1" y="2.1"/>
+<vertex x="2.1" y="2.1"/>
+<vertex x="2.1" y="0.1"/>
+<vertex x="10.65" y="0.1"/>
+<vertex x="10.65" y="19.9"/>
 </polygon>
 <polygon width="0.2" layer="1" isolate="0.2">
-<vertex x="0.2" y="19.8"/>
-<vertex x="0.2" y="0.2"/>
-<vertex x="10.65" y="0.2"/>
-<vertex x="10.65" y="19.8"/>
+<vertex x="2.1" y="19.9"/>
+<vertex x="2.1" y="17.9"/>
+<vertex x="0.1" y="17.9"/>
+<vertex x="0.1" y="2.1"/>
+<vertex x="2.1" y="2.1"/>
+<vertex x="2.1" y="0.1"/>
+<vertex x="10.65" y="0.1"/>
+<vertex x="10.65" y="19.9"/>
 </polygon>
 <contactref element="IC3" pad="8"/>
 <contactref element="IC3" pad="2"/>
@@ -1574,7 +1590,7 @@ design rules under a new name.</description>
 <contactref element="D1" pad="5"/>
 <contactref element="C5" pad="1"/>
 <contactref element="C7" pad="2"/>
-<via x="9.65" y="10" extent="1-16" drill="0.3" diameter="0.6"/>
+<via x="9.65" y="10" extent="1-16" drill="0.5" diameter="1"/>
 <wire x1="5.5" y1="6.5" x2="5.7" y2="6.3" width="0.4" layer="16"/>
 <wire x1="5.7" y1="6.3" x2="8.25" y2="6.3" width="0.4" layer="16"/>
 <wire x1="8.25" y1="6.3" x2="8.5" y2="6.55" width="0.4" layer="16"/>
@@ -2085,8 +2101,8 @@ design rules under a new name.</description>
 <via x="42.05" y="8.1" extent="1-16" drill="0.3" diameter="0.6"/>
 <wire x1="42.05" y1="8.1" x2="42.05" y2="10.3" width="0.2" layer="1"/>
 <wire x1="42.1" y1="8.05" x2="42.05" y2="8.1" width="0.2" layer="16"/>
-<wire x1="42.1" y1="8.05" x2="42.1" y2="5.1" width="0.2" layer="16"/>
-<wire x1="42.1" y1="5.1" x2="45.065" y2="2.135" width="0.2" layer="16"/>
+<wire x1="42.1" y1="8.05" x2="42.1" y2="3.6" width="0.2" layer="16"/>
+<wire x1="42.1" y1="3.6" x2="43.565" y2="2.135" width="0.2" layer="16"/>
 </signal>
 <signal name="TRXD">
 <contactref element="R15" pad="8"/>
@@ -2095,11 +2111,9 @@ design rules under a new name.</description>
 <wire x1="43.05" y1="6.9" x2="42.25" y2="6.9" width="0.2" layer="1"/>
 <wire x1="42.25" y1="6.9" x2="42.1" y2="6.75" width="0.2" layer="1"/>
 <wire x1="42.1" y1="3.8" x2="42.35" y2="3.55" width="0.2" layer="1"/>
-<wire x1="42.35" y1="3.55" x2="45.5" y2="3.55" width="0.2" layer="1"/>
-<wire x1="45.5" y1="3.55" x2="46.35" y2="2.7" width="0.2" layer="1"/>
 <wire x1="42.1" y1="6.75" x2="42.1" y2="3.8" width="0.2" layer="1"/>
-<wire x1="46.35" y1="2.7" x2="46.35" y2="2.15" width="0.2" layer="1"/>
-<wire x1="46.35" y1="2.15" x2="46.335" y2="2.135" width="0.2" layer="1"/>
+<wire x1="42.35" y1="3.55" x2="43.42" y2="3.55" width="0.2" layer="1"/>
+<wire x1="43.42" y1="3.55" x2="44.835" y2="2.135" width="0.2" layer="1"/>
 </signal>
 <signal name="TTDO">
 <wire x1="43.295" y1="9.555" x2="43.5" y2="9.35" width="0.2" layer="1"/>
