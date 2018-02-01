@@ -1214,43 +1214,33 @@ https://github.com/Misaka0x2730</description>
 <smd name="8" x="1.27" y="-2.54" dx="3" dy="0.85" layer="16"/>
 <smd name="10" x="1.27" y="-5.08" dx="3" dy="0.85" layer="16"/>
 </package>
+<package name="PH1X03">
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6" rot="R90"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.6" rot="R90"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.6" rot="R90"/>
+<wire x1="-3.81" y1="1.27" x2="-1.27" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="1.27" width="0.12" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="3.81" y2="1.27" width="0.12" layer="21"/>
+<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="3.81" y1="-1.27" x2="1.27" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="1.27" y1="-1.27" x2="-1.27" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="-1.27" x2="-3.81" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="1.27" width="0.12" layer="21"/>
+<wire x1="-1.27" y1="1.27" x2="-1.27" y2="-1.27" width="0.12" layer="21"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="-1.27" width="0.12" layer="21"/>
+<text x="-3.8" y="1.5" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
+<text x="-3.8" y="-2.5" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
+</package>
 <package name="PH1X03_1.27">
-<pad name="1" x="-1.27" y="0" drill="0.5" diameter="0.9" rot="R90"/>
-<pad name="2" x="0" y="0" drill="0.5" diameter="0.9" rot="R90"/>
-<pad name="3" x="1.27" y="0" drill="0.5" diameter="0.9" rot="R90"/>
+<pad name="1" x="-1.27" y="0" drill="0.6" diameter="1" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.6" diameter="1" rot="R90"/>
+<pad name="3" x="1.27" y="0" drill="0.6" diameter="1" rot="R90"/>
 <wire x1="-2.1082" y1="0.762" x2="2.1082" y2="0.762" width="0.12" layer="21"/>
 <wire x1="2.1082" y1="0.762" x2="2.1082" y2="-0.762" width="0.12" layer="21"/>
 <wire x1="2.1082" y1="-0.762" x2="-2.1082" y2="-0.762" width="0.12" layer="21"/>
 <wire x1="-2.1082" y1="-0.762" x2="-2.1082" y2="0.762" width="0.12" layer="21"/>
 <text x="-2.53" y="1.5" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
 <text x="-2.53" y="-2.5" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
-</package>
-<package name="PH2X02">
-<pad name="1" x="-1.27" y="1.27" drill="1" diameter="1.6"/>
-<pad name="2" x="1.27" y="1.27" drill="1" diameter="1.6"/>
-<pad name="3" x="-1.27" y="-1.27" drill="1" diameter="1.6"/>
-<pad name="4" x="1.27" y="-1.27" drill="1" diameter="1.6"/>
-<wire x1="-2.54" y1="2.54" x2="2.54" y2="2.54" width="0.12" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.12" layer="21"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.12" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="-2.54" y2="0" width="0.12" layer="21"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="2.54" width="0.12" layer="21"/>
-<wire x1="-2.54" y1="0" x2="2.54" y2="0" width="0.12" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.12" layer="21"/>
-<text x="-2.5" y="-3.7" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
-<text x="-2.5" y="2.7" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
-</package>
-<package name="PH2X02_1.27">
-<pad name="1" x="-0.635" y="0.635" drill="0.5" diameter="0.9" rot="R90"/>
-<pad name="2" x="0.635" y="0.635" drill="0.5" diameter="0.9" rot="R90"/>
-<pad name="3" x="-0.635" y="-0.635" drill="0.5" diameter="0.9" rot="R90"/>
-<wire x1="-1.4732" y1="1.397" x2="1.4732" y2="1.397" width="0.12" layer="21"/>
-<wire x1="1.4732" y1="1.397" x2="1.4732" y2="-1.397" width="0.12" layer="21"/>
-<wire x1="1.4732" y1="-1.397" x2="-1.4732" y2="-1.397" width="0.12" layer="21"/>
-<wire x1="-1.4732" y1="-1.397" x2="-1.4732" y2="1.397" width="0.12" layer="21"/>
-<text x="-2.53" y="2.135" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
-<text x="-2.53" y="-3.135" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
-<pad name="4" x="0.635" y="-0.635" drill="0.5" diameter="0.9" rot="R90"/>
 </package>
 <package name="USB-A-FEMALE">
 <pad name="2" x="-1" y="0" drill="1" diameter="1.6"/>
@@ -1281,8 +1271,8 @@ https://github.com/Misaka0x2730</description>
 <wire x1="6.54" y1="-5.3" x2="6.54" y2="-3.9" width="0.12" layer="21"/>
 <text x="-6.6" y="1.3" size="1" layer="25" font="vector" ratio="15" distance="45">&gt;NAME</text>
 <text x="-6.6" y="-6.6" size="1" layer="27" font="vector" ratio="15" distance="45">&gt;VALUE</text>
-<hole x="-2.25" y="-2.4" drill="1.5"/>
-<hole x="2.25" y="-2.4" drill="1.5"/>
+<hole x="-2.25" y="-2" drill="1.5"/>
+<hole x="2.25" y="-2" drill="1.5"/>
 <wire x1="-6.54" y1="-0.1" x2="-6.54" y2="1.03" width="0.12" layer="21"/>
 <wire x1="6.54" y1="-0.1" x2="6.54" y2="1.03" width="0.12" layer="21"/>
 </package>
@@ -1314,18 +1304,6 @@ https://github.com/Misaka0x2730</description>
 <wire x1="-2.54" y1="-5.08" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="-5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
 <wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
-</symbol>
-<symbol name="PH2X02">
-<pin name="4" x="10.16" y="-2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="2" x="10.16" y="2.54" visible="pad" length="middle" direction="pas" rot="R180"/>
-<pin name="3" x="-10.16" y="-2.54" visible="pad" length="middle" direction="pas"/>
-<pin name="1" x="-10.16" y="2.54" visible="pad" length="middle" direction="pas"/>
-<wire x1="-5.08" y1="5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
 <text x="0" y="7.62" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
 </symbol>
@@ -1389,7 +1367,7 @@ https://github.com/Misaka0x2730</description>
 <gate name="G$1" symbol="PH1X03" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="PH1X03_1.27">
+<device name="_1.27" package="PH1X03_1.27">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -1399,30 +1377,11 @@ https://github.com/Misaka0x2730</description>
 <technology name=""/>
 </technologies>
 </device>
-</devices>
-</deviceset>
-<deviceset name="PH2X02" prefix="X" uservalue="yes">
-<gates>
-<gate name="G$1" symbol="PH2X02" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PH2X02">
+<device name="_2.54" package="PH1X03">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="_1.27" package="PH2X02_1.27">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2314,12 +2273,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R1" library="Misaka-RCL" deviceset="R_ARRAY" device="_4X0603" value="330"/>
 <part name="SW1" library="Misaka-Button" deviceset="B3U-1000P" device=""/>
 <part name="IC2" library="Misaka-Other" deviceset="B0505S-1W" device=""/>
-<part name="X1" library="Misaka-Connector" deviceset="PH1X03" device="" value="SWD"/>
 <part name="FRAME1" library="frames" deviceset="A3L-LOC" device="" value="License: CC-BY-SA"/>
-<part name="GND15" library="supply1" deviceset="GND" device=""/>
-<part name="X3" library="Misaka-Connector" deviceset="PH2X02" device="_1.27" value="TARGET UART"/>
 <part name="IC4" library="Misaka-IC" deviceset="STM32F103C*" device="U" technology="B"/>
 <part name="X4" library="Misaka-Connector" deviceset="USB" device="_A-MALE"/>
+<part name="X1" library="Misaka-Connector" deviceset="PH1X03" device="_1.27" value="SWD"/>
 </parts>
 <sheets>
 <sheet>
@@ -2480,12 +2437,10 @@ BlackSphereTechnologies and 1BitSquared
 <instance part="R1" gate="D" x="46.99" y="17.78" rot="MR0"/>
 <instance part="SW1" gate="G$1" x="205.74" y="101.6"/>
 <instance part="IC2" gate="G$1" x="142.24" y="223.52"/>
-<instance part="X1" gate="G$1" x="238.76" y="60.96" rot="MR0"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="GND15" gate="1" x="270.51" y="165.1"/>
-<instance part="X3" gate="G$1" x="283.21" y="182.88"/>
 <instance part="IC4" gate="MCU" x="157.48" y="68.58"/>
 <instance part="X4" gate="G$1" x="21.59" y="199.39"/>
+<instance part="X1" gate="G$1" x="238.76" y="60.96" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -2733,28 +2688,12 @@ BlackSphereTechnologies and 1BitSquared
 <segment>
 <pinref part="X2" gate="G$1" pin="3"/>
 <wire x1="347.98" y1="203.2" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="203.2" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="X2" gate="G$1" pin="5"/>
-<wire x1="342.9" y1="198.12" x2="347.98" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="9"/>
 <wire x1="347.98" y1="187.96" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="187.96" x2="342.9" y2="198.12" width="0.1524" layer="91"/>
-<junction x="342.9" y="198.12"/>
+<wire x1="342.9" y1="187.96" x2="342.9" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND14" gate="1" pin="GND"/>
 <wire x1="342.9" y1="185.42" x2="342.9" y2="187.96" width="0.1524" layer="91"/>
 <junction x="342.9" y="187.96"/>
-</segment>
-<segment>
-<wire x1="273.05" y1="180.34" x2="270.51" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="270.51" y1="180.34" x2="270.51" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="270.51" y1="170.18" x2="295.91" y2="170.18" width="0.1524" layer="91"/>
-<wire x1="295.91" y1="170.18" x2="295.91" y2="180.34" width="0.1524" layer="91"/>
-<wire x1="295.91" y1="180.34" x2="293.37" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="GND15" gate="1" pin="GND"/>
-<wire x1="270.51" y1="167.64" x2="270.51" y2="170.18" width="0.1524" layer="91"/>
-<junction x="270.51" y="170.18"/>
-<pinref part="X3" gate="G$1" pin="4"/>
-<pinref part="X3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -3273,8 +3212,8 @@ BlackSphereTechnologies and 1BitSquared
 </segment>
 <segment>
 <pinref part="VT2" gate="G$1" pin="D"/>
-<wire x1="314.96" y1="213.36" x2="314.96" y2="231.14" width="0.1524" layer="91"/>
-<label x="314.96" y="231.14" size="1.778" layer="95" rot="R90" xref="yes"/>
+<wire x1="314.96" y1="213.36" x2="314.96" y2="222.25" width="0.1524" layer="91"/>
+<label x="314.96" y="222.25" size="1.778" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -3294,17 +3233,17 @@ BlackSphereTechnologies and 1BitSquared
 <net name="SWDIO" class="0">
 <segment>
 <wire x1="180.34" y1="60.96" x2="231.14" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="2"/>
 <label x="182.88" y="60.96" size="1.778" layer="95"/>
 <pinref part="IC4" gate="MCU" pin="PA13"/>
+<pinref part="X1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="SWCLK" class="0">
 <segment>
 <wire x1="180.34" y1="63.5" x2="231.14" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="X1" gate="G$1" pin="1"/>
 <label x="182.88" y="63.5" size="1.778" layer="95"/>
 <pinref part="IC4" gate="MCU" pin="PA14"/>
+<pinref part="X1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -3458,9 +3397,9 @@ BlackSphereTechnologies and 1BitSquared
 <pinref part="R14" gate="C" pin="2"/>
 </segment>
 <segment>
-<wire x1="273.05" y1="185.42" x2="270.51" y2="185.42" width="0.1524" layer="91"/>
-<label x="270.51" y="185.42" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="X3" gate="G$1" pin="1"/>
+<pinref part="X2" gate="G$1" pin="5"/>
+<wire x1="347.98" y1="198.12" x2="340.36" y2="198.12" width="0.1524" layer="91"/>
+<label x="340.36" y="198.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TRXD" class="0">
@@ -3470,9 +3409,9 @@ BlackSphereTechnologies and 1BitSquared
 <pinref part="R15" gate="A" pin="2"/>
 </segment>
 <segment>
-<wire x1="293.37" y1="185.42" x2="295.91" y2="185.42" width="0.1524" layer="91"/>
-<label x="295.91" y="185.42" size="1.778" layer="95" xref="yes"/>
-<pinref part="X3" gate="G$1" pin="2"/>
+<pinref part="X2" gate="G$1" pin="7"/>
+<wire x1="347.98" y1="193.04" x2="340.36" y2="193.04" width="0.1524" layer="91"/>
+<label x="340.36" y="193.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="TTDO" class="0">
